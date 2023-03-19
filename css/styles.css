@@ -12,7 +12,7 @@ letter-spacing: 0.02em;
 }
 
 .link {
-    text-decoration: none
+    text-decoration: none;
 }
 
 .list {
@@ -204,7 +204,8 @@ line-height: 1.5;
 .control .btn {
 color: #4D5AE5;
 background-color: #F4F4FD;
-font-family: "Roboto", sans-serif;
+font-family: "Roboto",
+    sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
