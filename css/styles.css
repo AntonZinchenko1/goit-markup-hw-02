@@ -174,8 +174,8 @@ line-height: 1.5;
 }
 
 /* Низ страницы/Подвал index     +      Подвал Portfolio---------------*/ */
-.footer {
-    background-color: var(--title-text-color);
+.foot {
+    background-color: #2e2f42;
 }
 
 .footer-logo {
@@ -194,15 +194,17 @@ color: #F4F4FD;
 }
 
 .footer-text {
+color: #E7E9FC;
 font-size: 16px;
 line-height: 1.5;
 }
 
 /* ---------------------- Portfolio----------------------- */
-/* ----------------Секция ссылок Portfolio----------------------- */
+/* ----------------Секция работ Portfolio----------------------- */
 .control .btn {
 color: #4D5AE5;
 background-color: #F4F4FD;
+font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -214,7 +216,6 @@ cursor: pointer;
     background-color: #404BBF;
 }
 
-/* ----------------Секция работ Portfolio----------------------- */
 .slider {}
 
 .slider-title {
