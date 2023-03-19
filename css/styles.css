@@ -11,6 +11,10 @@ letter-spacing: 0.02em;
     --accent-color: #404BBF;
 }
 
+.link {
+    text-decoration: none
+}
+
 .list {
   list-style: none;  
 }
@@ -42,13 +46,15 @@ letter-spacing: 0.02em;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    text-decoration: none;
+
 }
 .nav-link:hover, .nav-link:focus, .nav-link:active {
     color: var(--accent-color);
 }
 
-.address {}
+.address {
+    font-style: normal
+}
 
 .address-list {}
 
@@ -58,8 +64,8 @@ letter-spacing: 0.02em;
     color: var(--primary-text-color);
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5px;
-    text-decoration: none;
+    line-height: 1.5;
+    
  }
 
 .address-link:hover, .address-link:focus, .address-link:active {
@@ -76,11 +82,13 @@ color: var(--accent-color);
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .hero-button {
     color: #FFFFFF;
     background-color: #4D5AE5;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -104,6 +112,7 @@ color: var(--accent-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
     
 .work-text {
@@ -112,7 +121,8 @@ line-height: 1.5;
 }
 
 /* Секция картинок */
-.pictures {}
+.pictures {
+}
 
 .pictures-title {
     color: var(--title-text-color);
@@ -128,15 +138,22 @@ line-height: 1.5;
 .pictures-item {}
 
 /* Секция команда */
-.team {}
+.team {
+    background-color: #F4F4FD;
+}
 
 .team-title {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+}
+
+.team-item {
+    background-color: #FFFFFF;
 }
 
 .team-subtitle {
@@ -144,6 +161,7 @@ line-height: 1.5;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
@@ -151,16 +169,19 @@ line-height: 1.5;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
 /* Низ страницы/Подвал index     +      Подвал Portfolio---------------*/ */
 .footer {
+    background-color: var(--title-text-color);
 }
 
 .footer-logo {
     color:#4D5AE5;
     font-family: Raleway, sans-serif;
+    font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
