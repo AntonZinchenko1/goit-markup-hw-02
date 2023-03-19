@@ -172,12 +172,10 @@ line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
 }
-
-/* Низ страницы/Подвал index     +      Подвал Portfolio---------------*/ */
-.foot {
-    background-color: #2e2f42;
+/* Низ страницы/Подвал index     +      Подвал Portfolio---------------*/
+.footer-end {
+background-color: #2e2f42;
 }
-
 .footer-logo {
     color:#4D5AE5;
     font-family: Raleway, sans-serif;
